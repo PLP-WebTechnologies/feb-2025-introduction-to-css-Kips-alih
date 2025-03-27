@@ -1,0 +1,45 @@
+/* Apply a background color to the entire page */
+body {
+    background-color: #f4f4f9; /* Light gray background */
+    font-family: 'Arial', sans-serif; /* Change font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header element */
+#header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #333; /* Border under the header */
+}
+
+/* Style for all paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+}
+
+/* Style for images */
+img {
+    width: 100%;
+    max-width: 400px; /* Image will not exceed 400px */
+    height: auto;
+    border: 3px solid #ccc; /* Light border around the image */
+    margin: 20px auto; /* Center the image horizontally */
+    display: block;
+}
+
+/* Style for a specific section using a class selector */
+.highlight {
+    background-color: #ffeb3b; /* Yellow background */
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
